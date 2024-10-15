@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<title>solucionando um caso criminal</title>
+</head>
+<body>
+  <main>
+    <div class="passo ativo" id="passo-0">
+          <img src="cenario-passo0.jpg" alt="">
+      <p>voce é um perito criminal,chamado para resolver uma serie de crimes na cidade. cada decisão que voce toma, pode levar a diferentes suspeitos e desfechos voce chega a joalheria e observa o local do crime o segurança esta nervoso e algumas pessoas estão agromerada do lado de fora.</p>
+          <button  class="btn-proximo" data-proximo="1">interrogar o segurança</button>
+          <button  class="btn-proximo" data-proximo="2">analisar as câmeras</button>   
+        </div>
+        <div class="passo" id="passo-1">
+          <p>voce foi interrogar o segurança. o segurança viu alguem suspeito.</p>     
+            <button  class="btn-proximo" data-proximo="3">perguntar mais sobre a pessoa</button>
+            <button  class="btn-proximo" data-proximo="4">ignorar e investigar a loja</button>
+         </div>
+          <div class="passo" id="passo-2">
+            <p>cameras de segurança. as gravações mostram a figura encapuzada,mas o rosto não é visível. você nota que ele usava um capuz</p>
+            <button  class="btn-proximo" data-proximo="5">perguntar mais sobre a pessoa</button>
+            <button  class="btn-proximo" data-proximo="6">ignorar e investigar a loja</button>
+          </div>
+          <div class="passo" id="passo-3">
+            <p>rastreando suspeitos com as pistas em mãos, você decide como seguir.</p>
+            <button  class="btn-proximo" data-proximo="7">ir ate a casa do ex funcionario</button>
+            <button  class="btn-proximo" data-proximo="8">investigar um grupo suspeito na cidade</button>
+          </div>
+          <div class="passo" id="passo-4">
+            <p>você decidiu ir ate a casa do ex funcionario ele esta bastante nervoso</p>
+            <button  class="btn-proximo" data-proximo="9">você vai ser persuasivo</button>
+            <button  class="btn-proximo" data-proximo="10">você vai preciona-lo</button>
+          </div>
+          <div class="passo" id="passo-5">
+            <p>vc decide investigar um grupo suspeito na cidade</p>
+            <button  class="btn-proximo" data-proximo="9">você vai ser persuasivo</button>
+            <button  class="btn-proximo" data-proximo="10">você vai preciona-lo</button>
+          </div>
+          <div class="passo" id="passo-6">
+            <p>vc descobre o suspeito que e o ex funcionario </p>
+            <button  class="btn-proximo" data-proximo="11">você decide prende lo</button>
+            <button  class="btn-proximo" data-proximo="12">você deixa ele solto</button>
+          </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
